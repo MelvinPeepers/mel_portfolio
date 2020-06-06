@@ -1,6 +1,6 @@
 # Melvin's Portfolio
 
-This is my portfolio to display my programming skills and projects I would like to highligh.
+This is my portfolio to display my programming skills and projects I would like to highlight.
 
 ## Table of Contents
 
