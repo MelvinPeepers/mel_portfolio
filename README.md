@@ -5,7 +5,7 @@ This is my portfolio to display my programming skills and projects I would like 
 ## Table of Contents
 
 - [Screenshot](#screenshot)
-- [Pitch](#skills)
+- [Skills](#skills)
 - [Goal](#goal)
 - [Getting Started](#getting-started)
 
