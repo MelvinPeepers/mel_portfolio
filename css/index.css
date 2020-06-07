@@ -222,7 +222,7 @@ Media Queries
 
 */
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   h1 {
     font-size: 3rem;
   }
@@ -252,5 +252,13 @@ Media Queries
     font-size: 1.4rem;
     padding: 0.1em;
     margin: 0.45em;
+  }
+}
+
+@media (max-width: 320px) {
+  nav a {
+    font-size: 1.3rem;
+    padding: 0.2em;
+    margin: 0.25em;
   }
 }
