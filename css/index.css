@@ -157,26 +157,26 @@ body {
 }
 
 h1 {
-  font-size: 3.9rem;
+  font-size: 4rem;
   font-weight: bold;
 }
 
 h2 {
-  font-size: 2.3rem;
+  font-size: 2.4rem;
   font-weight: 400;
   color: var(--main-bg-color);
   text-align: center;
 }
 
 h3 {
-  font-size: 2.2rem;
+  font-size: 2.3rem;
   font-weight: 400;
   color: var(--main-bg-color);
   text-align: center;
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: 400;
   line-height: 1.4;
   color: var(--main-bg-color);
@@ -231,15 +231,17 @@ Bio Section
 
 */
 
-.bio-section {
+.bio-section,
+.skills-section {
   width: 100%;
   height: 100%;
   margin: 80px 0;
 }
 
-.bio-section h2 {
+.bio-section h2,
+.skills-section h3 {
   margin: 0 auto;
-  width: 40%;
+  width: 46%;
 }
 
 /*
@@ -247,17 +249,6 @@ Bio Section
 Skills Section
 
 */
-
-.skills-section {
-  width: 100%;
-  height: 100%;
-  margin: 80px 0;
-}
-
-.skills-section h3 {
-  margin: 0 auto;
-  width: 40%;
-}
 
 /*
 
@@ -272,6 +263,10 @@ Media Queries
   nav a {
     font-size: 1.8rem;
   }
+  .bio-section h2,
+  .skills-section h3 {
+    width: 76%;
+  }
 }
 
 @media (max-width: 667px) {
@@ -285,8 +280,19 @@ Media Queries
 }
 
 @media (max-width: 414px) {
+  h2 {
+    font-size: 1.9rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
   nav a {
     font-size: 1.6rem;
+  }
+  .bio-section h2,
+  .skills-section h3 {
+    width: 90%;
   }
 }
 
@@ -296,6 +302,13 @@ Media Queries
     padding: 0.1em;
     margin: 0.45em;
   }
+  h2 {
+    font-size: 1.7rem;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+  }
 }
 
 @media (max-width: 320px) {
@@ -303,5 +316,8 @@ Media Queries
     font-size: 1.3rem;
     padding: 0.2em;
     margin: 0.25em;
+  }
+  h3 {
+    font-size: 1.4rem;
   }
 }
