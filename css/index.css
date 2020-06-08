@@ -290,6 +290,8 @@ Media Queries
   .projects-section,
   .flex-container {
     flex-direction: row;
+  }
+  .project-section {
     justify-content: space-around;
   }
   .projects-section .flex-container img {
