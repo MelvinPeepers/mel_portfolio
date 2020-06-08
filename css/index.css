@@ -162,14 +162,14 @@ h1 {
 }
 
 h2 {
-  font-size: 2.4rem;
+  font-size: 2.6rem;
   font-weight: 400;
   color: var(--main-bg-color);
   text-align: center;
 }
 
 h3 {
-  font-size: 2.3rem;
+  font-size: 2.5rem;
   font-weight: 400;
   color: var(--main-bg-color);
   text-align: center;
@@ -241,7 +241,7 @@ Bio Section
 .bio-section h2,
 .skills-section h3 {
   margin: 0 auto;
-  width: 46%;
+  width: 55%;
 }
 
 /*
@@ -256,7 +256,7 @@ Media Queries
 
 */
 
-@media (max-width: 800px) {
+@media (max-width: 875px) {
   h1 {
     font-size: 3rem;
   }
@@ -265,11 +265,11 @@ Media Queries
   }
   .bio-section h2,
   .skills-section h3 {
-    width: 76%;
+    width: 90%;
   }
 }
 
-@media (max-width: 667px) {
+@media (max-width: 700px) {
   .flex-container {
     flex-direction: column;
   }
@@ -279,7 +279,7 @@ Media Queries
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 521px) {
   h2 {
     font-size: 1.9rem;
   }
@@ -307,7 +307,7 @@ Media Queries
   }
 
   h3 {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
 }
 
