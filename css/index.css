@@ -145,7 +145,6 @@ White:  #F5F5F5
 }
 
 * {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -235,6 +234,7 @@ nav a:hover {
   text-decoration: underline;
   -webkit-text-decoration-color: var(--link-color);
   text-decoration-color: var(--link-color);
+  transition: color 0.8s ease-out;
 }
 
 /*
@@ -298,6 +298,7 @@ Projects Section
   font-weight: 300;
   text-decoration: none;
   color: var(--link-color);
+  transition: color 0.8s ease-out;
 }
 
 .live-card {
