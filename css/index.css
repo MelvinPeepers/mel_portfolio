@@ -348,6 +348,12 @@ Media Queries
 
 */
 
+@media (min-width: 1500px) {
+  .flex-icons {
+    width: 30%;
+  }
+}
+
 @media (min-width: 1024px) {
   .projects-section,
   .flex-container {
