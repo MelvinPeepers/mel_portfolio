@@ -320,7 +320,8 @@ Projects Section
 .flex-icons {
   display: flex;
   justify-content: space-around;
-  margin-top: 40px;
+  margin: 40px auto 0;
+  width: 60%;
 }
 
 .flex-icons p {
@@ -404,6 +405,18 @@ Media Queries
   .bio-section h2,
   .skills-section h3 {
     width: 90%;
+  }
+
+  .connect {
+    margin-top: 20px;
+  }
+  .connect h4 {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .flex-icons {
+    width: 90%;
+    padding: 10px;
   }
 }
 
