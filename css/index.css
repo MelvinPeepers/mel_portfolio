@@ -346,6 +346,25 @@ Projects Section
   Contact
 */
 
+.contact {
+  padding: 40px 0;
+  font-size: 1.4rem;
+}
+
+.contact-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+#contact-area .submit-button {
+  margin-right: 13px;
+  border-radius: 2px;
+}
+
 .flex-contact {
   display: flex;
   justify-content: center;
@@ -362,7 +381,8 @@ Projects Section
   width: 471px;
   font-size: 1.4em;
   margin: 0px 0px 10px 0px;
-  border: 2px solid var(--main-txt-color);
+  border: 2px solid var(--main-bg-color);
+  border-radius: 2px;
 }
 
 #contact-area textarea {
@@ -371,12 +391,22 @@ Projects Section
 
 #contact-area textarea:focus,
 #contact-area input:focus {
-  border: 2px solid var(--main-txt-color);
+  border: 2px solid var(--main-bg-color);
 }
 
 #contact-area input.submit-button {
   width: 100px;
   float: right;
+}
+
+.submit-button {
+  color: var(--second-bg-color);
+  background-color: var(--main-bg-color);
+}
+
+.submit-button:hover {
+  color: var(--main-bg-color);
+  background-color: var(--link-color);
 }
 
 label {
@@ -422,6 +452,10 @@ Media Queries
   nav {
     margin-top: 15px;
   }
+  .contact {
+    padding: 80px 0;
+    font-size: 1.2rem;
+  }
 }
 
 @media (max-width: 875px) {
@@ -458,6 +492,10 @@ Media Queries
   .skills-section h3 {
     width: 90%;
   }
+  .flex-contact {
+    display: flex;
+    flex-direction: column;
+  }
 
   .connect {
     margin-top: 20px;
@@ -469,6 +507,23 @@ Media Queries
   .flex-icons {
     width: 90%;
     padding: 10px;
+  }
+  #contact-area {
+    margin: 0 auto;
+    width: 82%;
+  }
+  #contact-area .submit-button {
+    margin-right: 13%;
+  }
+  #contact-area input,
+  #contact-area textarea {
+    width: 300px;
+    text-align: center;
+  }
+  label {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 5px;
   }
 }
 
@@ -485,6 +540,16 @@ Media Queries
   h3 {
     font-size: 1.5rem;
   }
+  #contact-area {
+    width: 85%;
+  }
+  #contact-area input,
+  #contact-area textarea {
+    width: 300px;
+  }
+  #contact-area .submit-button {
+    margin-right: 5px;
+  }
 }
 
 @media (max-width: 320px) {
@@ -495,5 +560,16 @@ Media Queries
   }
   h3 {
     font-size: 1.4rem;
+  }
+  #contact-area {
+    width: 80%;
+  }
+  #contact-area input,
+  #contact-area textarea {
+    width: 260px;
+  }
+  #contact-area .submit-button {
+    margin-right: 0;
+    margin: 0 0 0 10px;
   }
 }
