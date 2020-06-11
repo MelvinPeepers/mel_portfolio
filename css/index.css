@@ -421,6 +421,57 @@ label {
 
 /*
 
+Footer
+
+*/
+
+footer {
+  background-color: var(--main-bg-color);
+  width: 100%;
+  height: 100%;
+  padding-top: 80px;
+}
+
+footer p {
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+.footer-container {
+  padding-left: 20px;
+}
+
+.footer-container p {
+  padding-left: 15px;
+}
+
+.flex-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-container li a {
+  text-decoration: none;
+  color: var(--second-bg-color);
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 0.25em;
+  margin: 0.25em;
+}
+
+.footer-nav a:hover {
+  color: var(--link-color);
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  text-decoration: none;
+}
+.footer-copyright p {
+  color: var(--second-bg-color);
+  padding: 10px;
+}
+
+/*
+
 Media Queries
 
 */
@@ -472,6 +523,16 @@ Media Queries
     height: 100%;
     margin: 0 auto;
   }
+  .footer-container {
+    padding: 0;
+  }
+  .footer-copyright {
+    display: flex;
+  }
+  .flex-footer,
+  .footer-copyright {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 595px) {
@@ -521,6 +582,9 @@ Media Queries
     margin: 0 auto;
     padding-bottom: 5px;
   }
+  .flex-footer .footer-nav a {
+    font-size: 1.6rem;
+  }
 }
 
 @media (max-width: 411px) {
@@ -554,14 +618,10 @@ Media Queries
   #contact-area textarea {
     width: 335px;
   }
-}
-/*
-@media (max-width: 360px) {
-  #contact-area input,
-  #contact-area textarea {
-    width: 305px;
+  .flex-footer .footer-nav a {
+    font-size: 1.4rem;
   }
-}*/
+}
 
 @media (max-width: 320px) {
   nav a {
@@ -578,5 +638,9 @@ Media Queries
   #contact-area input,
   #contact-area textarea {
     width: 290px;
+  }
+
+  .flex-footer .footer-nav a {
+    font-size: 1.3rem;
   }
 }
