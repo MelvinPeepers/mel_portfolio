@@ -506,21 +506,30 @@ Media Queries
   }
   #contact-area {
     margin: 0 auto;
-    width: 96%;
+    width: 92%;
   }
   #contact-area .submit-button {
-    margin-right: 10%;
+    margin-right: 0;
   }
   #contact-area input,
   #contact-area textarea {
-    width: 90%;
+    width: 100%;
     text-align: center;
-    border: 1px solid red;
   }
   label {
-    text-align: center;
+    text-align: left;
     margin: 0 auto;
     padding-bottom: 5px;
+  }
+}
+
+@media (max-width: 411px) {
+  #contact-area input,
+  #contact-area textarea {
+    width: 380px;
+  }
+  #contact-area .submit-button {
+    margin-right: 0;
   }
 }
 
@@ -538,16 +547,21 @@ Media Queries
     font-size: 1.5rem;
   }
   #contact-area {
-    width: 85%;
+    width: 90%;
+    margin: 0 auto;
   }
   #contact-area input,
   #contact-area textarea {
-    width: 300px;
-  }
-  #contact-area .submit-button {
-    margin-right: 5px;
+    width: 335px;
   }
 }
+/*
+@media (max-width: 360px) {
+  #contact-area input,
+  #contact-area textarea {
+    width: 305px;
+  }
+}*/
 
 @media (max-width: 320px) {
   nav a {
@@ -559,14 +573,10 @@ Media Queries
     font-size: 1.4rem;
   }
   #contact-area {
-    width: 80%;
+    width: 90%;
   }
   #contact-area input,
   #contact-area textarea {
-    width: 260px;
-  }
-  #contact-area .submit-button {
-    margin-right: 0;
-    margin: 0 0 0 10px;
+    width: 290px;
   }
 }
