@@ -358,6 +358,7 @@ Projects Section
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 #contact-area .submit-button {
@@ -452,10 +453,6 @@ Media Queries
   nav {
     margin-top: 15px;
   }
-  .contact {
-    padding: 80px 0;
-    font-size: 1.2rem;
-  }
 }
 
 @media (max-width: 875px) {
@@ -477,7 +474,7 @@ Media Queries
   }
 }
 
-@media (max-width: 521px) {
+@media (max-width: 595px) {
   h2 {
     font-size: 1.9rem;
   }
@@ -496,7 +493,6 @@ Media Queries
     display: flex;
     flex-direction: column;
   }
-
   .connect {
     margin-top: 20px;
   }
@@ -510,15 +506,16 @@ Media Queries
   }
   #contact-area {
     margin: 0 auto;
-    width: 82%;
+    width: 96%;
   }
   #contact-area .submit-button {
-    margin-right: 13%;
+    margin-right: 10%;
   }
   #contact-area input,
   #contact-area textarea {
-    width: 300px;
+    width: 90%;
     text-align: center;
+    border: 1px solid red;
   }
   label {
     text-align: center;
