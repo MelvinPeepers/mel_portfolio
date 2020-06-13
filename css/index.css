@@ -421,6 +421,31 @@ label {
 
 /*
 
+About
+
+*/
+
+.flex-about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 80px 0;
+}
+
+.flex-about img {
+  width: 50%;
+  margin: 0 auto;
+  padding-left: 10%;
+  border-radius: 2px;
+}
+
+.flex-about p {
+  margin: 20px auto;
+  width: 50%;
+}
+
+/*
+
 Footer
 
 */
@@ -522,6 +547,18 @@ Media Queries
     width: 100%;
     height: 100%;
     margin: 0 auto;
+  }
+  .flex-about {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-about img {
+    width: 80%;
+    padding: 0;
+  }
+
+  .flex-about p {
+    width: 80%;
   }
   .footer-container {
     padding: 0;
