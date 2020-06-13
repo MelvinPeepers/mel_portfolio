@@ -523,6 +523,14 @@ Media Queries
   .project-card {
     margin: 0 10px;
   }
+  .flex-about img {
+    width: 40%;
+    padding-left: 3%;
+  }
+
+  .flex-about p {
+    width: 60%;
+  }
 }
 
 @media (max-width: 949px) {
@@ -551,6 +559,7 @@ Media Queries
   .flex-about {
     display: flex;
     flex-direction: column;
+    margin-top: 40px;
   }
   .flex-about img {
     width: 80%;
@@ -558,7 +567,9 @@ Media Queries
   }
 
   .flex-about p {
+    text-align: center;
     width: 80%;
+    margin-top: 40px;
   }
   .footer-container {
     padding: 0;
