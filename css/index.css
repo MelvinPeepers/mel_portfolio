@@ -515,6 +515,10 @@ Media Queries
   .flex-icons {
     width: 30%;
   }
+  .flex-about {
+    width: 90%;
+    margin: 80px auto;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -540,6 +544,17 @@ Media Queries
 
   .flex-about p {
     width: 60%;
+  }
+}
+
+@media (max-width: 1023px) {
+  .flex-about img {
+    width: 40%;
+    padding-left: 3%;
+  }
+
+  .flex-about p {
+    width: 70%;
   }
 }
 
