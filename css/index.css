@@ -505,10 +505,18 @@ Media Queries
   .project-card {
     margin: 0 10px;
   }
+  .about-me {
+    margin-top: 40px;
+  }
 
   .flex-about {
-    width: 96%;
-    margin: 20px auto;
+    width: 100%;
+    margin: 40px auto;
+  }
+
+  .flex-about img {
+    width: 40%;
+    padding-left: 3%;
   }
 
   .flex-about p {
@@ -531,9 +539,19 @@ Media Queries
   }
 }
 
-@media (max-width: 949px) {
-  nav {
-    margin-top: 15px;
+@media (min-width: 876px) {
+  .about-me {
+    height: 100%;
+  }
+  .flex-about {
+    margin: 0;
+  }
+  #footer {
+    position: fixed;
+    padding: 40px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    height: 140px;
   }
 }
 
