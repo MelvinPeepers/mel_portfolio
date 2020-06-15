@@ -129,13 +129,10 @@ table {
 }
 
 /*
-
 General
-
 Colors
 Dark Blue: #1a2e44
 White:  #F5F5F5
-
 */
 
 :root {
@@ -212,10 +209,6 @@ header {
   padding: 20px;
 }
 
-.logo {
-  height: auto;
-}
-
 nav a {
   font-size: 2.2rem;
   font-weight: 300;
@@ -236,9 +229,7 @@ nav a:hover {
 }
 
 /*
-
 Bio Section
-
 */
 
 .bio-section,
@@ -255,9 +246,7 @@ Bio Section
 }
 
 /*
-
 Projects Section
-
 */
 .projects-section h4 {
   margin-bottom: 10px;
@@ -418,9 +407,7 @@ label {
 }
 
 /*
-
 About
-
 */
 
 .about-me {
@@ -448,9 +435,7 @@ About
 }
 
 /*
-
 Footer
-
 */
 
 footer {
@@ -489,9 +474,7 @@ footer {
 }
 
 /*
-
 Media Queries
-
 */
 
 @media (min-width: 1500px) {
@@ -508,6 +491,8 @@ Media Queries
   .projects-section,
   .flex-container {
     flex-direction: row;
+    width: 85%;
+    margin: 0 auto;
   }
   .project-section {
     justify-content: space-around;
@@ -533,6 +518,9 @@ Media Queries
 }
 
 @media (max-width: 1023px) {
+  nav {
+    margin-top: 15px;
+  }
   .flex-about img {
     width: 40%;
     padding-left: 3%;
