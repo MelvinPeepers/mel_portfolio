@@ -477,6 +477,15 @@ footer {
 Media Queries
 */
 
+@media (min-width: 2000px) {
+  .flex-about #about-img {
+    width: 23%;
+  }
+  .flex-about .about-text {
+    width: 40%;
+  }
+}
+
 @media (min-width: 1500px) {
   .flex-icons {
     width: 30%;
@@ -484,6 +493,17 @@ Media Queries
   .flex-about {
     width: 90%;
     margin: 80px auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  #about-img {
+    padding: 0;
+    width: 35%;
+  }
+  .about-text {
+    width: 50%;
+    margin: 0 auto;
   }
 }
 
