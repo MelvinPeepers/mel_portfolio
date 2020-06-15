@@ -210,6 +210,8 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .logo {
@@ -259,13 +261,15 @@ Bio Section
 Projects Section
 
 */
+
 .projects-section h4 {
   margin-bottom: 10px;
 }
 
 .projects-section .flex-container {
-  width: 100%;
+  width: 60%;
   height: 100%;
+  margin: 0 auto;
 }
 
 .project-card {
@@ -494,6 +498,12 @@ Media Queries
 
 */
 
+@media (max-width: 1500px) {
+  .projects-section .flex-container {
+    width: 90%;
+  }
+}
+
 @media (min-width: 1500px) {
   .flex-icons {
     width: 30%;
@@ -520,7 +530,6 @@ Media Queries
   .project-card {
     margin: 0 10px;
   }
-
   .flex-about {
     width: 96%;
     margin: 20px auto;
@@ -533,19 +542,15 @@ Media Queries
 }
 
 @media (max-width: 1023px) {
+  nav {
+    margin-top: 15px;
+  }
   .flex-about img {
     width: 40%;
     padding-left: 3%;
   }
-
   .flex-about p {
     width: 70%;
-  }
-}
-
-@media (max-width: 949px) {
-  nav {
-    margin-top: 15px;
   }
 }
 
