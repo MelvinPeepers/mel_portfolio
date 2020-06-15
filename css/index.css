@@ -154,6 +154,8 @@ body {
   font-size: 62.5%;
   background-color: var(--second-bg-color);
   font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 h2,
@@ -185,7 +187,7 @@ h4 {
 }
 
 p {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   font-weight: 400;
   line-height: 1.4;
   color: var(--main-bg-color);
@@ -211,10 +213,6 @@ header {
 }
 
 .logo {
-  height: auto;
-}
-
-nav {
   height: auto;
 }
 
@@ -425,6 +423,11 @@ About
 
 */
 
+.about-me {
+  width: 100%;
+  height: 800px;
+}
+
 .flex-about {
   display: flex;
   justify-content: space-around;
@@ -433,9 +436,9 @@ About
 }
 
 .flex-about img {
-  width: 50%;
+  width: 30%;
   margin: 0 auto;
-  padding-left: 10%;
+  padding: 0;
   border-radius: 2px;
 }
 
@@ -450,45 +453,25 @@ Footer
 
 */
 
-.page-container {
-  position: relative;
-  min-height: 100vh;
-}
-.content-wrap {
-  padding-bottom: 2.5rem;
-}
-
 footer {
   background-color: var(--main-bg-color);
   width: 100%;
-  height: 140px;
-  padding-top: 80px;
-  position: absolute;
-  margin-bottom: -50px;
+  height: 100%;
+  padding-top: 60px;
 }
 
-footer p {
-  padding-top: 5px;
-  padding-bottom: 15px;
-}
-.footer-container {
-  padding-left: 20px;
-}
-
-.footer-container p {
-  padding-left: 15px;
-}
-
-.flex-footer {
+.flex-footer,
+.footer-copyright {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  justify-content: center;
 }
 
 .footer-container li a {
   text-decoration: none;
   color: var(--second-bg-color);
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   font-weight: bold;
   padding: 0.25em;
   margin: 0.25em;
@@ -502,7 +485,7 @@ footer p {
 }
 .footer-copyright p {
   color: var(--second-bg-color);
-  padding: 10px;
+  padding: 20px;
 }
 
 /*
@@ -537,13 +520,15 @@ Media Queries
   .project-card {
     margin: 0 10px;
   }
-  .flex-about img {
-    width: 40%;
-    padding-left: 3%;
+
+  .flex-about {
+    width: 96%;
+    margin: 20px auto;
   }
 
   .flex-about p {
-    width: 60%;
+    width: 75%;
+    margin-top: 40px;
   }
 }
 
@@ -584,7 +569,7 @@ Media Queries
   .flex-about {
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
+    margin: 20px 0;
   }
   .flex-about img {
     width: 80%;
@@ -596,15 +581,20 @@ Media Queries
     width: 80%;
     margin-top: 40px;
   }
-  .footer-container {
-    padding: 0;
+  .about-me {
+    height: 100%;
   }
-  .footer-copyright {
-    display: flex;
+
+  footer {
+    height: 100%;
   }
-  .flex-footer,
-  .footer-copyright {
-    justify-content: center;
+
+  footer .footer-container .flex-footer li {
+    height: 40px;
+  }
+  .footer-copyright p {
+    font-size: 1.4rem;
+    padding: 10px 0 20px 0;
   }
 }
 
@@ -711,9 +701,5 @@ Media Queries
   #contact-area input,
   #contact-area textarea {
     width: 290px;
-  }
-
-  .flex-footer .footer-nav a {
-    font-size: 1.3rem;
   }
 }
