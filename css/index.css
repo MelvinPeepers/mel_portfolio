@@ -137,8 +137,8 @@ White:  #F5F5F5
 
 :root {
   --main-bg-color: #1a2e44;
-  --second-bg-color: #f5f5f5;
-  --link-color: #ffc966;
+  --second-bg-color: #fffafa;
+  --link-color: #fff34c;
 }
 
 * {
@@ -149,7 +149,8 @@ White:  #F5F5F5
 html,
 body {
   font-size: 62.5%;
-  background-color: var(--second-bg-color);
+  background-color: #fffafa;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%231a2e44' fill-opacity='0.12' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
   font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
@@ -258,8 +259,13 @@ Projects Section
 }
 
 .project-card {
-  box-shadow: 0 0 1px 0 var(--main-bg-color);
-  border-radius: 2px;
+  background-color: var(--second-bg-color);
+  box-shadow: 0 0 1.2px 0 var(--main-bg-color);
+  border-radius: 6px;
+}
+
+.project-card img {
+  border-radius: 6px;
 }
 
 .project-card,
@@ -350,7 +356,7 @@ Projects Section
 
 #contact-area .submit-button {
   margin-right: 13px;
-  border-radius: 2px;
+  border-radius: 6px;
 }
 
 .flex-contact {
@@ -370,7 +376,7 @@ Projects Section
   font-size: 1.4em;
   margin: 0px 0px 10px 0px;
   border: 2px solid var(--main-bg-color);
-  border-radius: 2px;
+  border-radius: 6px;
 }
 
 #contact-area textarea {
@@ -426,7 +432,7 @@ About
   width: 30%;
   margin: 0 auto;
   padding: 0;
-  border-radius: 2px;
+  border-radius: 6px;
 }
 
 .flex-about p {
