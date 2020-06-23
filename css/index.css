@@ -223,6 +223,7 @@ nav a {
 
 nav a:hover {
   color: var(--link-color);
+  font-weight: 400;
   text-decoration: underline;
   -webkit-text-decoration-color: var(--link-color);
   text-decoration-color: var(--link-color);
@@ -282,16 +283,16 @@ Projects Section
 }
 
 .link-card a {
-  font-weight: 300;
+  font-weight: 400;
   text-decoration: none;
   color: var(--main-bg-color);
 }
 
 .link-card a:hover {
-  font-weight: 300;
+  font-weight: 700;
   text-decoration: none;
   color: var(--link-color);
-  transition: color 0.8s ease-out;
+  transition-duration: 0.5s;
 }
 
 .live-card {
@@ -328,13 +329,6 @@ Projects Section
   height: 100%;
 }
 
-.linkedin-icon img a,
-.github-icon img a,
-.twitter-icon img a {
-  fill: #fff;
-  stroke: #fff;
-}
-
 /*
   Contact
 */
@@ -355,6 +349,7 @@ Projects Section
 }
 
 #contact-area .submit-button {
+  transition-duration: 0.5s;
   margin-right: 13px;
   border-radius: 6px;
 }
