@@ -315,6 +315,10 @@ footer {
   justify-content: center;
 }
 
+ul.flex-footer {
+  list-style: none;
+}
+
 .footer-container li a {
   text-decoration: none;
   color: var(--second-bg-color);
@@ -398,10 +402,19 @@ Media Queries
     text-align: center;
     line-height: 1.6;
   }
+  .footer-container li a {
+    font-size: 1.8rem;
+  }
 }
 
 @media (max-width: 360px) {
+  h1.logo {
+    font-size: 3rem;
+  }
   ul.about-nav li {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+  }
+  #navbar ul {
+    font-size: 1.6rem;
   }
 }
