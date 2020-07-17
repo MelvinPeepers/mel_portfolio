@@ -200,6 +200,18 @@ connect
   width: 60%;
 }
 
+.flex-icons img:hover {
+  background-color: var(--link-color);
+}
+
+.flex-icons p:hover {
+  background-color: var(--link-color);
+}
+
+.flex-icons p a {
+  color: var(--main-bg-color);
+}
+
 /*
 contact
 */
@@ -260,7 +272,7 @@ label {
   float: right;
 }
 
-.submit-button:hover {
+#contact-area .submit-button:hover {
   color: var(--main-bg-color);
   background-color: var(--link-color);
 }
