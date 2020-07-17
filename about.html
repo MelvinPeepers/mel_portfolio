@@ -1,48 +1,57 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <title>Melvin Peepers</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Welcmoe to my portfolio website" />
+    <meta name="keywords" content="portfolio, Melvin Peepers" />
     <link rel="stylesheet" href="css/index.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300&display=swap"
       rel="stylesheet"
     />
+    <title>Melvin Peepers Portfolio | About</title>
   </head>
   <body>
-    <div class="container">
-      <header>
-        <div class="flex-container">
-          <div class="logo">
-            <h1>Melvin Peepers</h1>
-          </div>
-          <nav>
-            <a href="index.html">Home</a>
-            <a href="/index.html#projects">Projects</a>
-            <a href="/index.html#contact">Contact</a>
-            <a href="about.html">About</a>
-            <!--<a href="blog.html">Blog</a>-->
-          </nav>
+    <header>
+      <nav id="navbar">
+        <div class="container flex-container">
+          <h1 class="logo"><a href="index.html">Melvin Peepers</a></h1>
+          <ul class="about-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#projects">Projects</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
         </div>
-      </header>
-      <section class="about-me">
+      </nav>
+    </header>
+
+    <section class="about">
+      <div class="container">
         <div class="flex-about">
-          <img id="about-img" src="/assets/melvin.jpg" alt="Melvin Peepers" />
-          <div class="about-text">
+          <img
+            id="about-img"
+            class="about-content"
+            src="./assets/melvin.jpg"
+            alt="Melvin Peepers"
+          />
+          <div class="about-content about-text">
             <p>
-              I'm currently a support engineer at Callcentric, which is a small
-              BYOD (Bring Your Own Device) Voice Over Internet Protocol (VoIP)
+              I'm currently a support engineer at Callcentric, which is a BYOD
+              (Bring Your Own Device) Voice Over Internet Protocol (VoIP)
               provider. I provide support for onboarding new customers, billing,
-              product questions, how to use features, setting up VoIP devices,
-              troubleshooting issues with devices and networks, and account
-              fraud prevention. I also write posts for the Callcentric Blog.
+              product questions, debugging Session Initiation Protocol (SIP),
+              helping individuals and companies around the world configure and
+              manage their IP PBXes and hardware devices, troubleshooting issues
+              with devices and networks. I also work with developers testing new
+              user agents and SIP apps as well as creating guides for them.
             </p>
             <p>
-              Before that, I worked at Pace Analytical as a contract employee
-              for 3M in Minnesota. I helped the 3M Environmental Lab create an
-              archiving process for all their environmental lab reports. I also
-              maintained and documented the archiving process.
+              Before Callcentric, I worked at Pace Analytical as a contract
+              employee for 3M in Minnesota. I helped the 3M Environmental Lab
+              create an archiving process for all their environmental lab
+              reports. I also maintained and documented the archiving process
             </p>
             <p>
               I enjoy working with customers. Listening to their problems and
@@ -51,31 +60,37 @@
               improving existing products, adding new features, fixing bugs, and
               creating new products.
             </p>
+            <p>
+              I enjoy working with customers. Listening to their problems and
+              finding solutions to those problems. After learning software
+              development, I've discovered new ways I can help customers by
+              improving existing products, adding new features, fixing bugs, and
+              creating new products. For the past 16 months, I've been a student
+              at Lambda School, studying Full Stack Web Development. In that
+              time, I've learned HTML, CSS, JavaScript, React, Node.js,
+              Express.js, and Python. With these tools, I have created websites
+              and apps in both solo and team environments. I've also planned
+              from the ground up several apps.
+            </p>
           </div>
         </div>
-      </section>
-      <footer id="footer">
-        <div class="footer-container">
-          <ul class="flex-footer">
-            <li class="nav-item footer-nav"><a href="index.html">Home</a></li>
-            <li class="nav-item footer-nav">
-              <a href="/index.html#projects">Projects</a>
-            </li>
-            <li class="nav-item footer-nav">
-              <a href="/index.html#contact">Contact</a>
-            </li>
-            <li class="nav-item footer-nav">
-              <a href="about.html">About</a>
-            </li>
-            <!--<li class="nav-item footer-nav"><a href="blog.html">Blog</a></li>-->
-          </ul>
-          <div class="footer-copyright">
-            <p>&copy; 2020 Melvin Peepers</p>
-          </div>
-          <!-- end of footer-copyright -->
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <ul class="flex-footer">
+          <li class="nav-item footer-nav"><a href="#projects">Projects</a></li>
+          <li class="nav-item footer-nav"><a href="#contact">Contact</a></li>
+          <li class="nav-item footer-nav"><a href="about.html">About</a></li>
+          <!--<li class="nav-item footer-nav"><a href="blog.html">Blog</a></li>-->
+        </ul>
+        <div class="footer-copyright">
+          <p>&copy; 2020 Melvin Peepers</p>
         </div>
-        <!-- end of footer-container -->
-      </footer>
-    </div>
+        <!-- end of footer-copyright -->
+      </div>
+      <!-- end of footer-container -->
+    </footer>
   </body>
 </html>
