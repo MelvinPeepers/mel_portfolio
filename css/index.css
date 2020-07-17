@@ -374,14 +374,7 @@ Media Queries
   }
 }
 
-@media (max-width: 620px) {
-  .bio-section h2 {
-    width: 100%;
-    font-size: 2rem;
-  }
-  .flex-icons {
-    width: 100%;
-  }
+@media (max-width: 635px) {
   #contact-area input,
   #contact-area textarea {
     width: 100%;
@@ -390,6 +383,16 @@ Media Queries
     width: 100px;
     float: none;
     margin: 0 auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .bio-section h2 {
+    width: 100%;
+    font-size: 2rem;
+  }
+  .flex-icons {
+    width: 100%;
   }
 }
 
