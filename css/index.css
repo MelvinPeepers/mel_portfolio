@@ -374,7 +374,7 @@ Media Queries
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 620px) {
   .bio-section h2 {
     width: 100%;
     font-size: 2rem;
