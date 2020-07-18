@@ -7,7 +7,6 @@ Reset
   padding: 0;
   box-sizing: border-box;
 }
-
 /*
 Main Styling
 */
@@ -321,8 +320,6 @@ footer {
 
 .flex-footer,
 .footer-copyright {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   justify-content: center;
 }
@@ -342,7 +339,6 @@ ul.flex-footer {
 
 .footer-nav a:hover {
   color: var(--link-color);
-  -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
   text-decoration: none;
 }
