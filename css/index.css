@@ -152,6 +152,7 @@ projects-section
   box-shadow: 0 0 1.2px 0 var(--main-bg-color);
   border-radius: 6px;
   padding-bottom: 30px;
+  margin-right: 15px;
 }
 
 .project-card img {
@@ -161,9 +162,20 @@ projects-section
 .title-card h5,
 .job-card h5 {
   font-weight: bold;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   text-align: center;
   padding: 10px 0;
+}
+
+.job-card {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.job-card p,
+.job-card li {
+  font-size: 1.6rem;
+  padding: 0 10px;
 }
 
 .link-card {
@@ -351,13 +363,29 @@ ul.flex-footer {
 Media Queries
 */
 
-@media (max-width: 1160px) {
+@media (max-width: 1180px) {
   .projects-section .flex-container {
     flex-direction: column;
   }
 
   .project-card {
     margin-bottom: 40px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .project-card img {
+    width: 100%;
+    height: 100%;
+  }
+  .title-card {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .job-card p,
+  .job-card li {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px 0;
   }
 }
 
