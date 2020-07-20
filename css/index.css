@@ -116,6 +116,9 @@ Navbar
 #navbar ul li a:hover,
 #navbar ul li a.current {
   color: var(--link-color);
+}
+
+#navbar ul li a:hover {
   border-bottom: 2px solid var(--link-color);
 }
 
