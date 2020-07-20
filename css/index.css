@@ -109,13 +109,14 @@ Navbar
 }
 
 #navbar ul li a {
-  padding: 20px;
+  padding: 16px;
   text-align: center;
 }
 
 #navbar ul li a:hover,
 #navbar ul li a.current {
   color: var(--link-color);
+  border-bottom: 2px solid var(--link-color);
 }
 
 /*
@@ -468,6 +469,10 @@ Media Queries
     font-size: 1.3rem;
   }
   #navbar ul {
+    font-size: 1.6rem;
+  }
+
+  .footer-container li a {
     font-size: 1.6rem;
   }
 }
