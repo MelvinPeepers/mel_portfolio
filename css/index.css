@@ -170,11 +170,17 @@ projects-section
   padding: 10px 0;
 }
 
-.job-card p,
-.job-card li {
-  font-size: 1.6rem;
+.job-card .project-description {
+  font-size: 1.8rem;
   padding: 0 10px;
   text-align: center;
+}
+
+.job-card .project-respon,
+.job-card li {
+  font-size: 1.6rem;
+  width: 80%;
+  margin: 0 auto;
 }
 .job-card {
   width: 100%;
@@ -387,6 +393,7 @@ Media Queries
   .job-card {
     width: 100%;
     height: 100%;
+    text-align: center;
   }
   .job-card p,
   .job-card li {
