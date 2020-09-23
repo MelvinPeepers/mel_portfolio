@@ -224,8 +224,8 @@ connect
   width: 60%;
 }
 
-.flex-icons img:hover {
-  background-color: var(--link-color);
+flex-icons svg:hover {
+  fill: var(--link-color);
 }
 
 .flex-icons p:hover {
