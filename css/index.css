@@ -12,7 +12,7 @@ Main Styling
 */
 
 :root {
-  --main-bg-color: #1a2e44;
+  --main-bg-color: #2f80ed;
   --second-bg-color: #fffafa;
   --link-color: #fff34c;
 }
@@ -37,6 +37,7 @@ h3,
 h4,
 h5 {
   padding: 40px 0 20px 0;
+  color: var(--main-bg-color);
 }
 
 h1 {
@@ -52,6 +53,7 @@ h2 {
 h3 {
   font-size: 2.4rem;
   font-weight: 400;
+  letter-spacing: 1px;
 }
 
 h4 {
@@ -82,9 +84,15 @@ Utilies
 Navbar
 */
 #navbar {
-  background-color: var(--main-bg-color);
   color: var(--second-bg-color);
   overflow: auto;
+  background: #56ccf2; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #2f80ed,
+    #56ccf2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.35);
 }
 
 #navbar .flex-container {
@@ -137,6 +145,7 @@ bio-section & skills
 .bio-section h2 {
   margin: 0 auto;
   width: 70%;
+  letter-spacing: 0.5px;
 }
 
 /*
@@ -152,9 +161,10 @@ projects-section
 .project-card {
   width: 100%;
   height: 100%;
+  color: var(--main-bg-color);
   margin: 0 auto;
   background-color: var(--second-bg-color);
-  box-shadow: 0 0 1.2px 0 var(--main-bg-color);
+  box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.1);
   border-radius: 6px;
   padding-bottom: 30px;
   margin-right: 15px;
@@ -172,6 +182,7 @@ projects-section
   font-size: 2.2rem;
   text-align: center;
   padding: 10px 0;
+  letter-spacing: 2px;
 }
 
 .job-card .project-description {
@@ -194,6 +205,7 @@ projects-section
 .link-card {
   margin: 10px 0;
   text-align: center;
+  letter-spacing: 2px;
 }
 
 .hub-card {
@@ -201,10 +213,11 @@ projects-section
 }
 
 .link-card a {
-  font-weight: 400;
+  font-weight: 700;
   text-decoration: none;
   color: var(--main-bg-color);
   font-size: 1.8rem;
+  letter-spacing: 3px;
 }
 
 .link-card a:hover {
@@ -217,23 +230,23 @@ projects-section
 /*
 connect
 */
+
 .flex-icons {
   display: flex;
   justify-content: space-around;
   margin: 40px auto 0;
   width: 60%;
+  color: var(--main-bg-color);
+  font-weight: 700;
+  letter-spacing: 3px;
 }
 
-flex-icons svg:hover {
+.flex-icons svg:hover {
   fill: var(--link-color);
 }
 
 .flex-icons p:hover {
   background-color: var(--link-color);
-}
-
-.flex-icons p a {
-  color: var(--main-bg-color);
 }
 
 /*
@@ -281,6 +294,7 @@ label {
   width: 95px;
   padding-top: 5px;
   font-size: 1.6rem;
+  color: var(--main-bg-color);
 }
 
 #contact-area .submit-button {
@@ -319,6 +333,7 @@ about
   height: 100%;
   margin: 0 auto;
   border-radius: 6px;
+  box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.35);
 }
 
 .about-text {
@@ -337,7 +352,13 @@ Footer
 */
 
 footer {
-  background-color: var(--main-bg-color);
+  background: #56ccf2; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #2f80ed,
+    #56ccf2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.35);
   width: 100%;
   height: 100%;
   padding-top: 60px;
