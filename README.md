@@ -11,7 +11,7 @@ This is my portfolio to display my programming skills and projects I would like 
 
 ## Screenshot
 
-![Mentor Me Landing Page Screenshot](./assets/readme.png)
+![Mentor Me Landing Page Screenshot](./assets/readmepic.png)
 
 ## Skills:
 
