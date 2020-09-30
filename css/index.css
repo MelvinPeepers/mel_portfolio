@@ -13,6 +13,7 @@ Main Styling
 
 :root {
   --main-bg-color: #2f80ed;
+  --sec-bg-color: #56ccf2;
   --second-bg-color: #fffafa;
   --link-color: #fff34c;
 }
@@ -92,7 +93,7 @@ Navbar
     #2f80ed,
     #56ccf2
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.35);
+  border-bottom: var(--main-bg-color) 1px solid;
 }
 
 #navbar .flex-container {
@@ -358,7 +359,7 @@ footer {
     #2f80ed,
     #56ccf2
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.35);
+  border-bottom: var(--main-bg-color) 1px solid;
   width: 100%;
   height: 100%;
   padding-top: 60px;
