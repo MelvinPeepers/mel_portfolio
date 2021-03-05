@@ -82,6 +82,11 @@ Utilies
   padding: 0 20px;
 }
 
+.not-found-home {
+  color: var(--main-bg-color);
+  font-weight: bold;
+}
+
 /* 
 Navbar
 */
