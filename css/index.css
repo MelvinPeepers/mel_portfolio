@@ -277,9 +277,10 @@ contact
 
 #contact-area input,
 #contact-area textarea {
-  padding: 5px;
+  padding: 6px;
   width: 471px;
-  font-size: 1.6em;
+  color: var(--main-bg-color);
+  font-size: 2.3rem;
   margin: 0px 0px 10px 0px;
   border: 2px solid var(--main-bg-color);
   border-radius: 6px;
@@ -289,10 +290,10 @@ contact
   height: 90px;
 }
 
-#contact-area textarea:focus,
+/*#contact-area textarea:focus,
 #contact-area input:focus {
   border: 2px solid var(--main-bg-color);
-}
+}*/
 
 label {
   float: left;
@@ -300,7 +301,7 @@ label {
   margin-right: 15px;
   width: 95px;
   padding-top: 5px;
-  font-size: 1.6rem;
+  font-size: 2rem;
   color: var(--main-bg-color);
 }
 
@@ -309,7 +310,7 @@ label {
   width: 20%;
   padding: 10px 25px;
   border-radius: 6px;
-  font-size: 1.6rem;
+  font-size: 2rem;
   display: block;
   margin-right: 15px;
   color: var(--second-bg-color);
@@ -461,6 +462,7 @@ Media Queries
     width: 100px;
     float: none;
     margin: 0 auto;
+    width: 100%;
   }
 }
 
@@ -475,15 +477,14 @@ Media Queries
 }
 
 @media (max-width: 414px) {
-  .project-card {
-    width: 95%;
+  .container {
+    padding: 0;
+    width: 96%;
   }
-  .project-card img {
-    width: 100%;
-  }
-  #about-img {
+
+  /*#about-img {
     width: 320px;
-  }
+  }*/
   ul.about-nav li {
     font-size: 1.7rem;
   }
