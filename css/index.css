@@ -12,8 +12,8 @@ Main Styling
 */
 
 :root {
-  --main-bg-color: #2f80ed;
-  --sec-bg-color: #56ccf2;
+  --main-bg-color: #1366d7;
+  --sec-bg-color: #488eef;
   --second-bg-color: #fffafa;
   --link-color: #fff34c;
 }
@@ -93,11 +93,11 @@ Navbar
 #navbar {
   color: var(--second-bg-color);
   overflow: auto;
-  background: #56ccf2; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: #488eef; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to bottom,
-    #2f80ed,
-    #56ccf2
+    #1366d7,
+    #488eef
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border-bottom: var(--main-bg-color) 1px solid;
 }
@@ -360,11 +360,11 @@ Footer
 */
 
 footer {
-  background: #56ccf2; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: #488eef; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to bottom,
-    #2f80ed,
-    #56ccf2
+    #1366d7,
+    #488eef
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border-bottom: var(--main-bg-color) 1px solid;
   width: 100%;
