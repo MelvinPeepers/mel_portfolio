@@ -295,6 +295,10 @@ contact
   border: 2px solid var(--main-bg-color);
 }*/
 
+.hidden {
+visibility: hidden;
+}
+
 label {
   float: left;
   text-align: right;
