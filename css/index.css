@@ -359,7 +359,7 @@ about
 }
 
 #about-img {
-  width: 400px;
+  width: 40%;
   height: 100%;
   margin: 0 auto;
   border-radius: 6px;
@@ -367,8 +367,8 @@ about
 }
 
 .about-text {
-  padding-top: 60px;
-  width: 90%;
+  width: 100%;
+  height: 100%;
   margin: 0 auto;
 }
 
@@ -504,10 +504,6 @@ Media Queries
     padding: 0;
     width: 96%;
   }
-
-  /*#about-img {
-    width: 320px;
-  }*/
   ul.about-nav li {
     font-size: 1.7rem;
   }
