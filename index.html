@@ -7,7 +7,6 @@
       name="description"
       content="Explore the portfolio of Melvin Peepers"
     />
-    <meta name="keywords" content="portfolio, Melvin Peepers" />
     <link rel="stylesheet" href="css/index.css" />
     <link rel="icon" type="image/png" href="assets/favicon_large.png" />
     <link
@@ -58,10 +57,10 @@
               rel="noreferrer"
               target="_blank"
               ><img
-                src="/.netlify/images?url=/assets/Sprout_Fitness.png"
+                src="/.netlify/images?url=/assets/Sprout_Fitness.png&w=640&fit=cover&auto=format"
                 srcset="/.netlify/images?url=/assets/Sprout_Fitness.png&w=320&fit=cover&auto=format 320w,
-    /.netlify/images?url=/assets/Sprout_Fitness.png&w=640&fit=cover&auto=format 640w,
-    /.netlify/images?url=/assets/Sprout_Fitness.png&w=960&fit=cover&auto=format 960w"
+                  /.netlify/images?url=/assets/Sprout_Fitness.png&w=640&fit=cover&auto=format 640w,
+                  /.netlify/images?url=/assets/Sprout_Fitness.png&w=960&fit=cover&auto=format 960w"
                 sizes="(max-width: 600px) 90vw, 320px"
                 width="320" height="180"
                 alt="Sprout Fitness website"
@@ -96,6 +95,7 @@
               <a
                 href="https://github.com/MelvinPeepers/SproutFitness-fe"
                 rel="noreferrer"
+                rel="noopener"
                 target="_blank"
                 class="hub-card"
                 >GitHub</a
@@ -108,7 +108,7 @@
               href="https://mentormesite.netlify.app"
               rel="noreferrer"
               target="_blank"
-              ><img src="/.netlify/images?url=/assets/MentorMe.png" alt="MentorMe website"
+              ><img src="/.netlify/images?url=/assets/MentorMe.png&w=640&fit=cover&auto=format"
                     srcset="/.netlify/images?url=/assets/MentorMe.png&w=320&fit=cover&auto=format 320w,
                     /.netlify/images?url=/assets/MentorMe.png&w=640&fit=cover&auto=format 640w,
                     /.netlify/images?url=/assets/MentorMe.png&w=960&fit=cover&auto=format 960w"
@@ -142,6 +142,7 @@
               <a
                 href="https://github.com/MelvinPeepers/mentor-me"
                 rel="noreferrer"
+                rel="noopener"
                 target="_blank"
                 class="hub-card"
                 >GitHub</a
@@ -155,10 +156,10 @@
               rel="noreferrer"
               target="_blank"
               ><img
-                src="/.netlify/images?url=/assets/water_my_plant.png"
+                src="/.netlify/images?url=/assets/water_my_plant.png&w=640&fit=cover&auto=format"
                 srcset="/.netlify/images?url=/assets/water_my_plant.png&w=320&fit=cover&auto=format 320w,
                 /.netlify/images?url=/assets/water_my_plant.png&w=640&fit=cover&auto=format 640w,
-                /.netlify/images?url=/assets/water_my_plant.pngw=960&fit=cover&auto=format 960w"
+                /.netlify/images?url=/assets/water_my_plant.png&w=960&fit=cover&auto=format 960w"
                 sizes="(max-width: 600px) 90vw, 320px"
                 width="320" height="180"
                 alt="Water My Plants website"
@@ -194,6 +195,7 @@
               <a
                 href="https://github.com/water-my-plant/Backend"
                 rel="noreferrer"
+                rel="noopener"
                 target="_blank"
                 class="hub-card"
                 >GitHub</a
@@ -213,6 +215,7 @@
             <a
               href="https://www.linkedin.com/in/melvin-peepers/"
               rel="noreferrer"
+              rel="noopener"
               target="_blank"
               ><svg
                 width="70"
@@ -242,6 +245,7 @@
             <a
               href="https://github.com/MelvinPeepers"
               rel="noreferrer"
+              rel="noopener"
               target="_blank"
               ><svg
                 width="70"
@@ -271,6 +275,7 @@
             <a
               href="https://twitter.com/peepersmel"
               rel="noreferrer"
+              rel="noopener"
               target="_blank"
               ><svg
                 width="70"
@@ -311,6 +316,10 @@
               netlify-honeypot="bot-field"
               data-netlify="true"
             >
+              <input type="hidden" name="form-name" value="contact" />
+              <p style="display:none">
+                <label>Don’t fill this out: <input name="bot-field" /></label>
+              </p>
               <label for="Name">Name:</label>
               <input class="input-control" type="text" name="Name" id="Name" />
 
