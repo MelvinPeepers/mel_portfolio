@@ -1,6 +1,0 @@
-[[redirects]]
-  from = "/about"
-  to = "https://melvinpeepers.com/about"
-  status = 301
-  force = true
-  conditions = { Host = ["www.melvinpeepers.com"] }
